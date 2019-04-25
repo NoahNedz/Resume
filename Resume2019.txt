@@ -1,0 +1,145 @@
+
+
+\documentclass[margin]{res}  
+
+% Default font is the helvetica postscript font
+\usepackage{helvet}
+
+% Increase text height
+\textheight=800pt
+
+\begin{document}
+
+%-------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%-------------------------------------------------------------------------------
+\name{Noah Niedzwiecki}
+
+% Note that addresses can be used for other contact information:
+% -phone numbers
+% -email addresses
+% -linked-in profile
+
+\address{\\Email : noahnedz@live.com
+\\Github : https://noahnedz.github.io\\
+}
+\address{\\\\Phone : 618-314-2174\\}
+
+% Uncomment to add a third address
+%\address{Address 3 line 1\\Address 3 line 2\\Address 3 line 3}
+%-------------------------------------------------------------------------------
+
+\begin{resume}
+
+%-------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%-------------------------------------------------------------------------------
+\section{OBJECTIVE}
+{\sl Senior year Computer Engineering student at Auburn University. Energetic, hard-working, and consistent. Seeking full time employment in a challenging and innovative engineering environment where I can apply my skill set to create professional solutions    }
+
+\section{EDUCATION}
+\textbf{Auburn University}\\
+{\sl Bachelor of Science}, Computer Engineering(CE)\\
+Expected Graduation : Fall 2019
+\hfill GPA: 3.04
+
+%-------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%-------------------------------------------------------------------------------
+\section{TECHNICAL\\SKILLS}
+
+\textbf{Languages : } Python, C++, C, VHDL, Matlab
+\\
+\textbf{Database :} MySQL, SQLite 
+\\
+\textbf{Tools : } Autodesk Suite, Wonderware InTouch, Visual Studio, Git
+\\
+\textbf{Familiar : } Java, Javascript, HTML, CSS, C\#, Visual Basic
+\\
+\textbf{General : } Additive Printing and Design, Electrical Test Equipment, SMD Soldering  
+
+%-------------------------------------------------------------------------------
+% Modify the format of each position
+\begin{format}
+\title{l}\\
+\dates{l}\location{r}\\
+\body\\
+\end{format}
+%-------------------------------------------------------------------------------
+
+\section{EXPERIENCE}
+
+\textbf{Undergraduate Research Assistant:\hfill{Fall 2016 - Present}\\}
+
+\begin{itemize}
+\item Test instrument usage/programming experience: \\oscilloscopes, network analyzers,
+signal generators, switch matrices
+\end{itemize}
+\begin{itemize}
+\item Complete PCB design and assembly using KiCad and hot air rework station
+\end{itemize}
+\begin{itemize}
+\item Front-end/back-end software and hardware development for electronics testing automation
+\end{itemize}
+\begin{itemize}
+\item SQL database design and implementation in continuously monitored systems
+\item Transistor test data processing and visualization through Matlab 
+\end{itemize}
+
+
+\textbf{Decostar Industries:\hfill{Summer 2016}\\}
+\begin{itemize}
+\item\normalfont{Automotive Manufacturing Paint Technician Intern}
+\end{itemize}
+\begin{itemize}
+\item Wastewater handling solution developed with Allen Bradley PLC  
+\end{itemize}
+\begin{itemize}
+\item Utilized AutoCad Electrical to map, label, and update electrical cabinets' wiring
+\end{itemize}
+\begin{itemize}
+\item VB.Net paint management application written to log data to a local SQL server
+\end{itemize}
+
+\textbf{Sunfish LLC:\hfill{Summer 2017 - Present}\\}
+\begin{itemize}
+\item\normalfont{Property Manager}
+\end{itemize}
+\begin{itemize}
+\item Manage 10 rental properties by advertising and filling vacancies
+\end{itemize}
+\begin{itemize}
+\item Maintain safe, clean, and secure premises for all tenants
+\end{itemize}
+\begin{itemize}
+\item Communicate with tenants to streamline maintenance completion and cultivate customer satisfaction
+\end{itemize}
+
+
+
+
+
+\section{PROJECTS}
+\employer{LNMIIT}
+\location{}
+\title{\textbf{Student Project and Research Committee\hfill Fall 2016 - Present}
+ }
+\begin{position}
+% \begin{itemize}
+Auburn's Student Project and Research Committee is a student led organization at Auburn University that creates and fosters an environment of creativity and \\ innovation through collaborative projects \\ 
+% \end{itemize}
+\begin{itemize}
+\item \textbf{Leadership:} Lab Manager 2016-2017, Director of Public Relations 2018-Present
+\end{itemize}
+\begin{itemize}
+\item \textbf{2019 IEEE Robotics Competition :} Robot Localization using LIDAR, IMU, and SLAM algorithms in a ROS environment
+\end{itemize}
+\begin{itemize}
+\item \textbf{Music Synthesizer :} Microcontroller powered, 3 voice, music maker. SPI controlled function generators, 8-step sequencer, bandpass filter, and TFT screen 
+\end{itemize}
+
+\end{position}
+
+%-------------------------------------------------------------------------------
+\end{resume}
+\(\)\end{document}
