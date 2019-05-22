@@ -41,7 +41,7 @@
 \textbf{Auburn University}\\
 {\sl Bachelor of Science}, Computer Engineering(CE)\\
 Expected Graduation : Fall 2019
-\hfill GPA: 3.04
+\hfill GPA: 3.06
 
 %-------------------------------------------------------------------------------
 %	COMPUTER SKILLS SECTION
