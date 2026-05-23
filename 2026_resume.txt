@@ -13,7 +13,7 @@ right=0.5in]{geometry}              % specify right page margin
 \usepackage{titlesec}               % enable section title customization
 \raggedright                        % disable text justification
 \pagestyle{empty}                   % disable page numbering
-\linespread{1.06}                   % slightly increase line spacing for readability
+\linespread{1.03}                   % slightly increase line spacing for readability
 
 % ensure PDF output will be all-Unicode and machine-readable
 \input{glyphtounicode}
@@ -24,7 +24,7 @@ right=0.5in]{geometry}              % specify right page margin
 
 % format bullet points: size, white space above and below, white space between bullets
 \renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
-\setlist[itemize]{itemsep=0pt, leftmargin=12pt, topsep=9pt} %%% Test various topsep values to fix vertical spacing errors
+\setlist[itemize]{itemsep=-1pt, leftmargin=12pt, topsep=7pt} %%% Test various topsep values to fix vertical spacing errors
 
 % resume starts here
 \begin{document}
@@ -43,26 +43,27 @@ right=0.5in]{geometry}              % specify right page margin
 \section*{Skills}
 	\textbf{Programming:} C, Bash, Python, SQL, PHP \\
 	\textbf{Embedded Platforms:} Embedded Linux, Yocto, U-Boot, systemd, Linux kernel bring-up \\
+  \textbf{Networking \& Data Models:} TCP, UDP, YANG \\
 	\textbf{Debugging \& Performance:} GDB, perf, flamegraph analysis, py-spy, strace \\
-	\textbf{Protocols \& Services:} UDP, YANG, systemd-journald, REST APIs \\
 	\textbf{Tools:} Git, Jira, tmux, Apache, AI-assisted development
 
-\vspace{-4pt}
+\vspace{-6pt}
 
 % experience section
 \section*{Experience}
 \textbf{Software Engineer,} {Ciena Corporation} -- Atlanta, GA \hfill January 2020 -- Present \\
 \vspace{-9pt}
 \begin{itemize}
-  \item Led cross-functional delivery of an automatic fiber-optic transceiver software-upgrade feature by defining the high-level design, coordinating 10 developers across teams, and validating end-to-end integration testing.
-  \item Built a debug symbol and analysis suite used by 100+ engineers that made core and trace debugging broadly accessible, reducing trace retrieval from undocumented, open-ended investigation to under 1 minute.
-  \item Developed a web interface in HTML, JavaScript, and PHP that automated core-file stacktrace extraction and system-state analysis, including log triage, performance plotting, and boot-timing visualization.
-  \item Implemented a fiber-optic laser polarization state streaming pipeline with UDP relay and consumer components that transformed incoming data into YANG-defined structures with multi-stream and variable-rate support.
-  \item Owned software-management microservice support across multiple hardware targets by triaging Jira issues, delivering feature and bug-fix updates, and resolving live customer incidents.
+  \item Led cross-functional delivery of an automatic fiber-optic transceiver software-upgrade feature by defining the high-level design, coordinating 10 developers across teams, and driving end-to-end release readiness.
+  \item Served as technical prime for debug-symbol and performance-analysis tooling used by 100+ engineers, making core and trace debugging broadly accessible and reducing trace retrieval from undocumented, open-ended investigation to under 1 minute.
+  \item Implemented a fiber-optic laser polarization state streaming pipeline with UDP relay and consumer components that transformed incoming data into YANG-defined structures for off-box consumption, with multi-stream and variable-rate support.
+  \item Owned the software-management microservice lifecycle across multiple hardware targets, defining deployment and rollback behavior to standardize production feature and bug-fix releases.
+  \item Led Jira triage and live customer incident response for the software-management microservice, diagnosing root causes and delivering fixes to restore service stability.
   \item Created a reusable Yocto recipe that bundled RPM sets into one deployable package and extended the software-management microservice with SHA-384 manifest validation, reducing load-validation time by 50\%.
   \item Engineered a Bash- and tmux-based automation scripting framework with reusable shell-function libraries to automate SSH sessions, remote command execution, output monitoring, and complex test workflows.
   \item Upgraded remote-journal services by modernizing systemd integration and redesigning socket/service schemas, improving log-storage efficiency by 30\% while validating max-use sizing under real-world workloads.
-  \item Supported a security-driven major Linux kernel upgrade across multiple hardware platforms by compiling and validating builds, then debugging and fixing driver incompatibilities to restore stable behavior.
+  \item Supported a security-driven major Linux kernel upgrade across multiple hardware platforms by compiling and validating builds, then debugging and fixing driver incompatibilities to enable stable security migration.
+  \item Developed a web interface in HTML, JavaScript, and PHP that automated core-file stacktrace extraction and system-state analysis, including log triage, performance plotting, and boot-timing visualization.
   \item Created internal AI usage guidelines and taught practical workflows through team presentations, accelerating onboarding to modern development tools and increasing independent problem-solving across engineers.
 \end{itemize}
 
@@ -70,7 +71,7 @@ right=0.5in]{geometry}              % specify right page margin
 % \textbf{Job Title,} \href{https://www.fstl1992.com/}{Company} -- City, ST \hfill XXXX -- XXXX \\
 % \vspace{-9pt}
 
-\vspace{-11pt}
+\vspace{-14pt}
 
 % projects section
 \section*{Projects}
@@ -78,7 +79,7 @@ right=0.5in]{geometry}              % specify right page margin
 \vspace{-9pt}
 \begin{itemize}
   \item Built and deployed a production web application on a rented Linux server, installing dependencies, configuring systemd services, registering the domain, automating backups, and implementing secure JWT authentication, AES-256 data encryption, and SQL-backed persistence for real users.
-  \item Developed full-stack platform features including REST API integration, SQL schema and query design, Google Maps support, rate limiting, and advertising-driven user acquisition while validating security and correctness.
+  \item Developed full-stack platform features including REST API integration, SQL schema and query design, Google Maps support, and rate limiting while validating security and correctness in production.
 \end{itemize}
 
 
@@ -92,7 +93,7 @@ right=0.5in]{geometry}              % specify right page margin
 %   \item \textbf{Mac Setup:} Book that gives step by step instructions on setting up developer environment on Mac OS
 % \end{itemize}
 
-\vspace{-11pt}
+\vspace{-14pt}
 
 % education section
 \section*{Education}
