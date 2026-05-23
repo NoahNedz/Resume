@@ -35,7 +35,7 @@ right=0.5in]{geometry}              % specify right page margin
 \vspace{5pt}
 
 % contact information
-\centerline{\href{mailto:noahnedz@gmail.com}{noahnedz@gmail.com} | \href{https://mitcommlab.mit.edu/meche/commkit/portfolio/}{www.linkedin.com/in/noah-niedzwiecki-33408a18a}}
+\centerline{\href{mailto:noahnedz@gmail.com}{noahnedz@gmail.com} | \href{https://www.linkedin.com/in/noah-niedzwiecki-33408a18a/}{www.linkedin.com/in/noah-niedzwiecki-33408a18a}}
 
 \vspace{-7pt}
 
